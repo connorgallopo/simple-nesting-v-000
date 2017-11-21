@@ -20,7 +20,7 @@ def hopper
 end
 
 def alan_kay_is_known_for
-	hash = hopper[:alan_kay]
+	hash = hopper[:alan_kay][:known_for]
 
 	puts hash
 
