@@ -16,11 +16,12 @@ def hopper
         }
      }
 
+		 puts programmer_hash[:grace_hopper][:known_for]
 
 end
 
 def alan_kay_is_known_for
-	hash = hopper[:alan_kay][:known_for]
+	hash = hopper
 
 	puts hash
 
